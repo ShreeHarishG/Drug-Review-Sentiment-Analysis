@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage / cache
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.local
+
+# IDEs and Code Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+[Dd]esktop.ini
+
+# Archives & Temporary Zip/Folder Extracts
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+ShreeHarish_Capstone/
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.temp
+
+# Large Machine Learning Models & Checkpoints (>100MB GitHub limit)
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.pkl
+*.joblib
+*.sav
+*.onnx
+*.h5
+models/
+notebooks/final_model/
+notebooks/final_deberta_model/
+notebooks/deberta_results/
+deberta_results/
+
+# Data outputs & cache (optional)
+data/processed/
